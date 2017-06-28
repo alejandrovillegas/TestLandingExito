@@ -1,0 +1,53 @@
+.background1 {
+	/*background-image:  url("img/landing-24.png");*/
+	background-color: #543e78;
+	text-align: center;
+}
+
+.background2 {
+	/*background-image:  url("img/landing-25.png");*/
+	background-color: #654287;
+	text-align: center;
+}
+
+.background3 {
+	/*background-image:  url("img/landing-26.png");*/
+	background-color: #543e78;
+	text-align: center;
+}
+
+.background4 {
+	background-color: black;
+	text-align: center;
+}
+
+.width100{
+	width: 100%;
+}
+
+.marginProducts{
+	width: 100%;
+	margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#imgTop100{
+	margin-top: 100px;
+}
+
+#imgCompras{
+	width: 70%;
+    margin-top: 80px;
+}
+
+#imgLanding16{
+	margin-top: 50px;
+}
+
+#imgLanding20{
+	margin-top: 150px;
+}
+
+#imgLanding21{
+	margin-top: 35px;
+}
