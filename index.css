@@ -1,23 +1,32 @@
 .background1 {
-	background-image:  url("img/landing-24.png");
-	/*background-color: #543e78;*/
+	/*background-image:  url("img/landing-24.png");*/
+	background: #664a8c; /* Old Browsers */
+	background: -webkit-radial-gradient(center,#664a8c,#4a376d); /*Safari 5.1-6*/
+	background: -o-radial-gradient(center,#664a8c,#4a376d); /*Opera 11.1-12*/
+	background: -moz-radial-gradient(center,#664a8c,#4a376d); /*Fx 3.6-15*/
+	background: radial-gradient(ellipse at center, #664a8c, #4a376d); /*Standard*/
 	text-align: center;
 }
 
 .background2 {
-	background-image:  url("img/landing-25.png");
-	/*background-color: #654287;*/
+	/*background-image:  url("img/landing-25.png");*/
+	background-color: #654287;
 	text-align: center;
 }
 
 .background3 {
-	background-image:  url("img/landing-26.png");
+	/*background-image:  url("img/landing-26.png");*/
+	background: #664a8c; /* Old Browsers */
+	background: -webkit-radial-gradient(center,#664a8c,#4a376d); /*Safari 5.1-6*/
+	background: -o-radial-gradient(center,#664a8c,#4a376d); /*Opera 11.1-12*/
+	background: -moz-radial-gradient(center,#664a8c,#4a376d); /*Fx 3.6-15*/
+	background: radial-gradient(ellipse at center, #664a8c, #4a376d); /*Standard*/
 	/*background-color: #543e78;*/
 	text-align: center;
 }
 
 .background4 {
-	background-color: black;
+	background-color: #f0f0f0;
 	text-align: center;
 }
 
@@ -39,6 +48,7 @@
 
 #imgTop100{
 	margin-top: 100px;
+	width: 90%
 }
 
 #imgCompras{
@@ -62,6 +72,14 @@
 	width: 55%
 }
 
+#imgLanding14{
+	width: 30%
+}
+
+#imgLanding15{
+	width: 59%
+}
+
 #imgLanding65{
 	width: 65%
 }
@@ -75,6 +93,10 @@
 	width: 95%
 }
 
+#imgLanding19{
+	width: 95%
+}
+
 #imgLanding20{
 	margin-top: 150px;
 	width: 90%;
@@ -83,4 +105,61 @@
 #imgLanding21{
 	margin-top: 35px;
 	width: 80%;
+}
+
+#imgLanding29{
+	margin-top: -90px;
+    margin-right: -20px;
+}
+
+
+
+@media (max-width: 575px) { 
+
+	.footerMovilExito{
+		text-align: center;
+	}
+
+	#imgTop100{
+		margin-top: 100px;
+		width: 100%
+	}	
+
+	#imgLanding11{
+		width: 65%
+	}
+
+	#imgCompras {
+	    width: 100%;
+	    margin-top: -10px;
+	}
+
+	#imgLanding16 {
+	    margin-top: 50px;
+	    width: 100%;
+	}
+
+	#imgLanding18{
+		width: 65%
+	}
+
+	#imgLanding20 {
+	    margin-top: 10px;
+	    width: 100%;
+	}
+
+	#imgLanding19 {
+	    margin-top: 10px;
+	    width: 78%;
+	}
+
+	#imgLanding13 {
+	    width: 80%;
+	    margin-top: 7px;
+	}
+
+	#imgLanding21{
+		margin-top: 20px;
+		width: 65%;
+	}
 }
